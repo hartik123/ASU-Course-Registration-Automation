@@ -1,19 +1,19 @@
 # ASU Course Registration Automation [Developed in 2023]
 
 ## My Personal Experience
-I arrived in the US in August 2023 for the Fall semester. Back in India during the Summer of 2023, I had registered for my core CS courses without much of a strategic plan. After arriving and observing the learning strategies used by my peers, I realized I should focus on my specific areas of interest. Since I was passionate about security, I planned to take the **Engineering Blockchain Applications** course in the Spring 2024 semester.
+I arrived in the US in Fall 2023, in the month of August 2023. I had registered for the core CS courses when I was in India somewhere in the 2023 Summer. During that time, I was confused about which courses to register for, and registered for common CS courses like that without any thought-out plan. After coming here and understanding the strategies peers used for learning courses in the US, I realized I should **focus on the area I am interested in learning.**
 
-There was only one section available with 150 seats, and it was in extremely high demand. On the day of registration, I woke up before 6:00 AM and pressed the register button at exactly 6:00 AM sharp. Despite my timing, the initial loading symbol ended with a notification that I didn't get the course.
+Since I had a huge interest in learning security, I planned to take the **Engineering Blockchain Application** course in my next semester, which was Spring 2024. There was **only 1 class with 150 seats**, and I tried to capture this course into my schedule. But on the day of course registration, even after waking up before 6:00 AM in the morning and **pressing the register course button at 6:00 AM SHARP like a machine**, after an initial loading symbol, **I didn't get the course as it was in very high demand.**
 
-I later learned about the "add/drop" period, where seats occasionally open up before the semester starts. I tried manually checking the website for availability, but no seats ever seemed to stay open. This gave me the idea to build a system to track the course 24/7. I wrote a script that monitored the course status; whenever a seat opened, it would notify me immediately so I could register via my laptop or mobile phone.
+After a while, I learned there is a **"course drop" period** where you can enroll into open courses still available before the start of the next semester. I was trying to open the website to check for open seat availability but could not see any open seats. So, I got the idea of **making a system to track the Engineering Blockchain course 24/7 with my own personal script.** This way, whenever someone drops the course, **I will be notified quickly.** I could then straight away open the logged-in website on my mobile or laptop—preferably on mobile as it is with you throughout the day.
 
-I tracked three courses in my cart, with Blockchain as my priority. The automation ran for five days. I actually missed the window twice because seats were being filled within 10 seconds of being dropped—it felt like I was competing against machines. Finally, on the sixth day, I caught an opening and successfully registered. I ultimately finished the course with an **A+** and truly enjoyed the material.
+Finally, I was tracking 3 courses in my cart; the 1st was Blockchain, and then 2 more courses. **The automation ran for 5 days**, and I did miss registering for Blockchain 1–2 times, but on the 6th day when the course opened, **I quickly registered for it.** I was able to get that course into my transcript ultimately with an **A+ grade**, and I really liked learning that course.
 
 ## The Challenge
 The course was in such high demand that seats would vanish within seconds of a student dropping them (250-300 students competing for a single seat after the course registration day completed). Initially, it felt impossible to compete manually.
 
 ## Conclusion
-This was the first project that introduced automation into my Software Engineering career. Since then, I have moved on to developing much more complex automated systems.
+This application successfully helped me secure a seat in the Engineering Blockchain Applications course. This was the first project that introduced automation into my Software Engineering career. Since then, I have moved on to developing much more complex automated systems.
 
 ## Technical Stack
 * **Language:** Python
@@ -21,7 +21,11 @@ This was the first project that introduced automation into my Software Engineeri
 * **Automation Engine:** Selenium WebDriver
 * **Notification System to Mobile:** Gmail Server (smtp.gmail.com)
 
+## Who this project is for
+**Students who are not able to secure a seat in their interested courses** can use this automation to monitor availability and **secure their seats** before they vanish.
+
 ---
 
 **Note for Students:** Analyze the logic of this script and adapt the selectors to the current ASU website structure to secure your high-priority courses.
+
 
