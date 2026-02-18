@@ -1,4 +1,4 @@
-# ASU Course Registration Automation
+# ASU Course Registration Automation [Developed in 2023]
 
 ## My Personal Experience
 I arrived in the US in August 2023 for the Fall semester. Back in India during the Summer of 2023, I had registered for my core CS courses without much of a strategic plan. After arriving and observing the learning strategies used by my peers, I realized I should focus on my specific areas of interest. Since I was passionate about security, I planned to take the **Engineering Blockchain Applications** course in the Spring 2024 semester.
@@ -10,7 +10,7 @@ I later learned about the "add/drop" period, where seats occasionally open up be
 I tracked three courses in my cart, with Blockchain as my priority. The automation ran for five days. I actually missed the window twice because seats were being filled within 10 seconds of being dropped—it felt like I was competing against machines. Finally, on the sixth day, I caught an opening and successfully registered. I ultimately finished the course with an **A+** and truly enjoyed the material.
 
 ## The Challenge
-The course was in such high demand that seats would vanish within seconds of a student dropping them. Initially, it felt impossible to compete manually.
+The course was in such high demand that seats would vanish within seconds of a student dropping them (250-300 students competing for a single seat after the course registration day completed). Initially, it felt impossible to compete manually.
 
 ## Conclusion
 This was the first project that introduced automation into my Software Engineering career. Since then, I have moved on to developing much more complex automated systems.
@@ -24,3 +24,4 @@ This was the first project that introduced automation into my Software Engineeri
 ---
 
 **Note for Students:** Analyze the logic of this script and adapt the selectors to the current ASU website structure to secure your high-priority courses.
+
